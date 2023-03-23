@@ -7,5 +7,5 @@ $z-below: -1 !default; //use this for all values below the base (negative values
 
 
 //example / usage
-//$z-context-element: $z-above;
-//$z-context-element-two: $z-context-element + $z-above;
+//$z-modal-overlay: $z-above;
+//$z-modal-close: $z-context-element + $z-above;
