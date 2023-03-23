@@ -1,0 +1,11 @@
+//z-index values
+//https://www.smashingmagazine.com/2021/02/css-z-index-large-projects
+
+$z-base: 0 !default;
+$z-above: 1 !default; //use this for all values above the base
+$z-below: -1 !default; //use this for all values below the base (negative values only)
+
+
+//example / usage
+//$z-context-element: $z-above;
+//$z-context-element-two: $z-context-element + $z-above;
